@@ -1,3 +1,16 @@
+## Screenshots
+
+<p align="center">
+  <img src="Menu.jpg" width="150">
+  <img src="Song.jpg" width="150">
+  <img src="New-song.jpg" width="150">
+</p>
+<p align="center">
+  <img src="Keyboard-1.jpg" width="150">
+  <img src="Keyboar-2.jpg" width="150">
+  <img src="Keyboard-3.jpg" width="150">
+</p>
+
 # Clef
 
 **English** · [Türkçe](#türkçe)
