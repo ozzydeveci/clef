@@ -1,16 +1,27 @@
+<p align="center">
+  <img src="icon-512.png" width="120">
+</p>
+
+<h1 align="center">Clef</h1>
+
+<p align="center">
+  A small chord-chart notebook.
+</p>
+
 ## Screenshots
 
-<p align="center">
-  <img src="Menu.jpg" width="150">
-  <img src="Song.jpg" width="150">
-  <img src="New-song.jpg" width="150">
-</p>
-<p align="center">
-  <img src="Keyboard-1.jpg" width="150">
-  <img src="Keyboar-2.jpg" width="150">
-  <img src="Keyboard-3.jpg" width="150">
-</p>
-
+<table align="center">
+  <tr>
+    <td align="center"><img src="Menu.jpg" width="250"><br><sub>Menu</sub></td>
+    <td align="center"><img src="Song.jpg" width="250"><br><sub>Song</sub></td>
+    <td align="center"><img src="New-song.jpg" width="250"><br><sub>New song</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Keyboard-1.jpg" width="250"><br><sub>Keyboard 1</sub></td>
+    <td align="center"><img src="Keyboar-2.jpg" width="250"><br><sub>Keyboard 2</sub></td>
+    <td align="center"><img src="Keyboard-3.jpg" width="250"><br><sub>Keyboard 3</sub></td>
+  </tr>
+</table>
 # Clef
 
 **English** · [Türkçe](#türkçe)
