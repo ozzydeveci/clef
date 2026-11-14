@@ -30,6 +30,8 @@ The Android version has everything above plus **handwriting recognition** (write
 3. Tap **Install**. If Play Protect warns that the app is unrecognized, choose *Install anyway*: the APK is signed with a debug key, not a Play Store key.
 4. The first time you use handwriting, the recognition model (a few MB) is downloaded once, so you need internet for that moment.
 
+Language: the app is available in English and Turkish. It follows the phone language (Turkish if the phone is Turkish, English otherwise); tap **EN / TR** at the top of the left menu to switch manually.
+
 Notes: arm64 phones only (most phones from the last several years). Songs are stored on the device; export a `.clef` file to back up or move them to the web version.
 
 ## Run locally
@@ -71,6 +73,8 @@ Android sürümünde yukarıdakilerin hepsine ek olarak **el yazısı tanıma** 
 2. İndirdiğin dosyayı aç. Android sorarsa bu kaynaktan kuruluma izin ver (Ayarlar → *Bilinmeyen uygulamaları yükle* → tarayıcın ya da Dosyalar uygulaması).
 3. **Yükle**'ye dokun. Play Protect "tanınmayan uygulama" uyarısı verirse *Yine de yükle*'yi seç: APK, Play Store anahtarıyla değil, hata ayıklama anahtarıyla imzalı.
 4. El yazısını ilk kullanışında tanıma modeli (birkaç MB) bir kez indirilir, o an internet gerekir.
+
+Dil: uygulama Türkçe ve İngilizce sunar. Telefon dilini izler (telefon Türkçeyse Türkçe, değilse İngilizce); elle değiştirmek için sol menünün üstündeki **EN / TR**'ye dokun.
 
 Notlar: yalnızca arm64 telefonlar (son yılların çoğu telefonu). Şarkılar cihazda saklanır; yedeklemek ya da web sürümüne taşımak için `.clef` dosyası dışa aktar.
 
