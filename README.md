@@ -2,7 +2,7 @@
 
 **English** · [Türkçe](#türkçe)
 
-A small chord-chart notebook that runs in the browser and installs on an iPhone like an app. Write songs from scratch, import iReal Pro charts, transpose, and export.
+A small chord-chart notebook. It runs in the browser, installs on an iPhone like an app, and also comes as an Android app. Write songs from scratch, import iReal Pro charts, transpose, and export.
 
 **Open:** https://ozzydeveci.github.io/clef/
 
@@ -18,7 +18,19 @@ A small chord-chart notebook that runs in the browser and installs on an iPhone 
 
 Your songs are stored **on your device only** (no server, no account). Clear Safari data and they are gone, so export a `.clef` backup now and then.
 
-Not included in the web version: handwriting recognition (available in the Android app).
+Not included in the web version: handwriting recognition (available in the [Android app](#android-app)).
+
+## Android app
+
+The Android version has everything above plus **handwriting recognition** (write a chord with a pen or finger, pick from suggestions).
+
+**Install:**
+1. On your phone, open the [latest release](https://github.com/ozzydeveci/clef/releases/latest) and download **Clef.apk**.
+2. Open the downloaded file. If Android asks, allow installs from this source (Settings → *Install unknown apps* → your browser or Files app).
+3. Tap **Install**. If Play Protect warns that the app is unrecognized, choose *Install anyway*: the APK is signed with a debug key, not a Play Store key.
+4. The first time you use handwriting, the recognition model (a few MB) is downloaded once, so you need internet for that moment.
+
+Notes: arm64 phones only (most phones from the last several years). Songs are stored on the device; export a `.clef` file to back up or move them to the web version.
 
 ## Run locally
 
@@ -32,7 +44,7 @@ Then open `http://localhost:8000`. No build step.
 
 ## Türkçe
 
-Tarayıcıda çalışan, iPhone'a uygulama gibi kurulan küçük bir akor şarkı defteri. Şarkıları sıfırdan yazabilir, iReal Pro şarkılarını içe aktarabilir, transpoze edebilir ve dışa aktarabilirsin.
+Küçük bir akor şarkı defteri. Tarayıcıda çalışır, iPhone'a uygulama gibi kurulur ve Android uygulaması olarak da var. Şarkıları sıfırdan yazabilir, iReal Pro şarkılarını içe aktarabilir, transpoze edebilir ve dışa aktarabilirsin.
 
 **Aç:** https://ozzydeveci.github.io/clef/
 
@@ -48,7 +60,19 @@ Tarayıcıda çalışan, iPhone'a uygulama gibi kurulan küçük bir akor şark�
 
 Şarkıların **yalnızca cihazında** saklanır (sunucu ve hesap yok). Safari verisini silersen şarkılar da gider, bu yüzden arada bir `.clef` yedeği al.
 
-Web sürümünde olmayan: el yazısı tanıma (Android uygulamasında var).
+Web sürümünde olmayan: el yazısı tanıma (Android uygulamasında var, kurulum için [aşağıya](#android-uygulaması) bak).
+
+### Android uygulaması
+
+Android sürümünde yukarıdakilerin hepsine ek olarak **el yazısı tanıma** var (akoru kalemle ya da parmakla yaz, önerilerden birini seç).
+
+**Kurulum:**
+1. Telefonda [son sürüm sayfasını](https://github.com/ozzydeveci/clef/releases/latest) aç ve **Clef.apk** dosyasını indir.
+2. İndirdiğin dosyayı aç. Android sorarsa bu kaynaktan kuruluma izin ver (Ayarlar → *Bilinmeyen uygulamaları yükle* → tarayıcın ya da Dosyalar uygulaması).
+3. **Yükle**'ye dokun. Play Protect "tanınmayan uygulama" uyarısı verirse *Yine de yükle*'yi seç: APK, Play Store anahtarıyla değil, hata ayıklama anahtarıyla imzalı.
+4. El yazısını ilk kullanışında tanıma modeli (birkaç MB) bir kez indirilir, o an internet gerekir.
+
+Notlar: yalnızca arm64 telefonlar (son yılların çoğu telefonu). Şarkılar cihazda saklanır; yedeklemek ya da web sürümüne taşımak için `.clef` dosyası dışa aktar.
 
 ### Yerelde çalıştırma
 
