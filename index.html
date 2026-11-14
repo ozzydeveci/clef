@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Clef</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#16181B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Clef">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <button id="btnMenu" aria-label="Menü">☰</button>
+    <div id="songTitle"></div>
+    <button id="btnEdit" aria-label="Düzenle">✎</button>
+    <div class="tr"><button id="trMinus">−</button><button id="trVal">0</button><button id="trPlus">+</button></div>
+  </header>
+  <main id="view"><div id="sheet" class="sheet"></div><div id="empty">Soldaki menüden <b>Dosya aç</b>, <b>Yapıştır</b> ya da <b>＋ Yeni</b> ile şarkı ekleyin.</div></main>
+  <footer id="player"></footer>
+</div>
+
+<div id="scrim"></div>
+<aside id="drawer">
+  <div class="dh"><span>Şarkılarım</span><button id="btnSelect" class="link">Seç</button></div>
+  <div class="row3">
+    <button id="btnOpen">Dosya aç</button><button id="btnPaste">Yapıştır</button><button id="btnNew">＋ Yeni</button>
+  </div>
+  <input id="search" type="search" placeholder="Şarkı ara…" autocomplete="off">
+  <div id="chips"></div>
+  <div id="plActions" hidden><span id="plName"></span><button id="plRename" class="link">Adını değiştir</button><button id="plDelete" class="link">Sil</button></div>
+  <div id="selBar" hidden><div id="selCount"></div>
+    <div class="selBtns"><button id="sAll">Tümü</button><button id="sConv" hidden>Clef'e çevir</button><button id="sAdd">Listeye ekle</button><button id="sRemove">Listeden çıkar</button><button id="sExport">Dışa aktar</button><button id="sDel">Sil</button></div></div>
+  <ul id="list"></ul>
+  <div class="foot">Clef · veriler bu cihazda saklanır</div>
+</aside>
+
+<input id="fileIn" type="file" multiple accept=".clef,.txt,.html,.json,text/*,application/octet-stream" hidden>
+<input id="audioIn" type="file" accept="audio/*" hidden>
+<div id="modal" hidden></div>
+<div id="toast" hidden></div>
+<div id="editor" hidden></div>
+
+<script src="ui.js"></script>
+<script src="sheet.js"></script>
+<script src="ireal.js"></script>
+<script src="lib.js"></script>
+<script src="editor.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
